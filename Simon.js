@@ -23,9 +23,9 @@ function flash(btn) {
     }, 200);
 }
 function userflash(btn) {
-    btn.classList.add("green");
+    btn.classList.add("flash");
     setTimeout(function () {
-        btn.classList.remove("green");
+        btn.classList.remove("flash");
     }, 150);
 }
 function over(btn) {

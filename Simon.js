@@ -17,15 +17,15 @@ key.addEventListener("click", function () {
 let h3 = document.querySelector("h3");
 
 function flash(btn) {
-    btn.classList.add("green");
-    setTimeout(function () {
-        btn.classList.remove("green");
-    }, 200);
-}
-function userflash(btn) {
     btn.classList.add("flash");
     setTimeout(function () {
         btn.classList.remove("flash");
+    }, 200);
+}
+function userflash(btn) {
+    btn.classList.add("green");
+    setTimeout(function () {
+        btn.classList.remove("green");
     }, 150);
 }
 function over(btn) {

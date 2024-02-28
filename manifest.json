@@ -1,0 +1,29 @@
+{
+	"author": "",
+	"name": "Simon Says",
+	"short_name": "Simon Says",
+	"description": "It's a cool game.",
+	"orientation": "portrait",
+	"start_url": "/",
+	"scope": "/",
+	"display": "standalone",
+    
+	"background_color": "black",
+	"theme_color": "#238ee0",
+	"icons": [
+		{
+			"src": "/assets/logo.jpg",
+			"sizes": "48x48 72x72 96x96 128x128 192x192 256x256 512x512",
+			"type": "image/jpg"
+			
+		}
+		
+	],
+	"manifest_version": 2,
+	"version": "0.1",
+	"applications": {
+		"gecko": {
+			"id": "sumit2011kmr@gmail.com"
+		}
+	}
+}

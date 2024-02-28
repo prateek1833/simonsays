@@ -4,6 +4,7 @@ let start = false;
 let level = 0;
 let col = ["purple", "red", "green", "yellow"]
 let HighScore = 0;
+const musicSound = new Audio('assets/press.mp3');
 HS = document.querySelector(".HS");
 HS.innerText = `Highscore:${HighScore}`;
 let key=document.getElementById("h3");
@@ -81,6 +82,7 @@ function btnpress() {
     let userColor = btn.getAttribute("id");
     UserSeq.push(userColor);
     check(UserSeq.length - 1);
+    musicSound.play();
 }
 
 let btns = document.querySelectorAll(".button");

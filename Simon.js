@@ -17,9 +17,9 @@ key.addEventListener("click", function () {
 let h3 = document.querySelector("h3");
 
 function flash(btn) {
-    btn.classList.add("flash");
+    btn.classList.add("green");
     setTimeout(function () {
-        btn.classList.remove("flash");
+        btn.classList.remove("green");
     }, 200);
 }
 function userflash(btn) {

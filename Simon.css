@@ -1,0 +1,86 @@
+body{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    background-color:rgb(166, 213, 223);
+}
+h1{
+    border:#7552F2 solid ;
+    border-radius: 20px;
+    background-color: #7552F2;
+    width: 500px;
+    height: 75px;
+    position: relative;
+    left: 500px;
+    padding-top: 30px;
+}
+h3{
+    border:#F2528D solid ;
+    border-radius: 20px;
+    background-color: #F2528D;
+    width: 500px;
+    height: 20px;
+    position: relative;
+    left: 500px;
+}
+.HS{
+    width: 250px;
+    left: 625px;
+
+}
+h1:hover{
+    transition-duration: 0.20s;
+    box-shadow: 4px 4px 20px #392a6e;
+    font-size: 40px;
+    
+}
+h3:hover{
+    transition-duration: 0.20s;
+    box-shadow: 4px 4px 20px #f2528da7;
+    font-size: 20px;
+    
+}
+.Butt{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    height:180px;
+    width:180px;
+    border:solid black 4px;
+    border-radius: 10px;
+    margin: 15px;
+}
+.button:hover{
+    height:190px;
+    width:190px;
+    border:solid black 3px;
+    border-radius: 10px;
+    margin: 15px;
+    transition-duration: 0.20s;
+    box-shadow: 4px 4px 20px black;}
+.red{
+    background-color: #F2528D;
+    font-size: 160px;
+}
+.green{
+    background-color: #7552F2;
+    font-size: 160px;
+
+}
+.yellow{
+    background-color: #50B4F2;
+    font-size: 160px;
+
+}
+.purple{
+    background-color: #CE4BF2;
+    font-size: 160px;
+
+}
+.flash{
+    background-color: white;
+}
+.over{
+    background-color: red;
+}

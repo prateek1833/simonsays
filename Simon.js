@@ -60,7 +60,7 @@ function check(idx) {
     else {
         body = document.querySelector("body");
         over(body);
-        h3.innerText = `Game Over! Your Score ${level}, Press any key to start again`;
+        h3.innerText = `Game Over! Your Score ${level}, Press this key to start again`;
         reset();
     }
 }

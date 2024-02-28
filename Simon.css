@@ -5,28 +5,28 @@ body{
     background-color:rgb(166, 213, 223);
 }
 h1{
-    border:#7552F2 solid ;
+   border:#7552F2 solid ;
     border-radius: 20px;
     background-color: #7552F2;
-    width: 500px;
-    height: 75px;
+    width: 70%;
+    height: 10%;
     position: relative;
-    left: 500px;
+    left: 15%;
     padding-top: 30px;
 }
 h3{
     border:#F2528D solid ;
     border-radius: 20px;
     background-color: #F2528D;
-    width: 500px;
-    height: 20px;
+    width: 70%;
+    height: 10%;
     position: relative;
-    left: 500px;
+    left: 15%;
 }
 .HS{
-    width: 250px;
-    left: 625px;
-
+    width: 20%;
+    height: 10%;
+    left: 40%;
 }
 h1:hover{
     transition-duration: 0.20s;

@@ -5,8 +5,9 @@ let level = 0;
 let col = ["purple", "red", "green", "yellow"]
 let HighScore = 0;
 HS = document.querySelector(".HS");
-HS.innerText = `Highscore:${HighScore}`
-document.addEventListener("keypress", function () {
+HS.innerText = `Highscore:${HighScore}`;
+let key=document.getElementById("h3");
+key.addEventListener("click", function () {
     if (start == false) {
         console.log("started");
         start = true;
